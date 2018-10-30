@@ -22,6 +22,22 @@ if(b.numberStep){var c=this.each(function(){this._animateNumberSetter=b.numberSt
             this.animateFigures();
             this.animateSections();
             this.onScroll();
+            this.popin();
+s
+        },
+
+        popin : function(){
+            $(".video-item").click(function(){
+                var videoName = $(this).data('videoname');
+                $("#"+videoName).addClass('popin-open');
+                $("html").addClass('noscroll');
+            });
+            $(".popin-close, .popin-overlay").click(function(){
+                var videoName = $(this).data('videoname');
+                $(".popin").removeClass('popin-open');
+                $("#"+ videoName +' iframe').attr("src", $("#"+ videoName +' iframe').attr("src"));
+                $("html").removeClass('noscroll');
+            });
         },
 
         isScrolledIntoView : function($elem, $window) {
