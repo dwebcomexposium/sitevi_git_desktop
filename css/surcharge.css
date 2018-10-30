@@ -8261,7 +8261,8 @@ a .exhibitor-categories__img img:hover {
     margin-bottom: 30px;
     font-size: 14px;
     color: #000;
-    position: relative
+    position: relative;
+    text-transform: none
 }
 
 .cl-content .cl-item .cl-item-subtitle::after {
