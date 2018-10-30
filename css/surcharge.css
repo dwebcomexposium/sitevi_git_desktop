@@ -7370,6 +7370,30 @@ a .exhibitor-categories__img img:hover {
     color: #E3763A
 }
 
+.parent786543 .article-navigation,
+.content508607 .article-navigation {
+    max-width: 1400px;
+    margin: 0 auto
+}
+
+.parent786543 .article-title,
+.content508607 .article-title {
+    padding-top: 130px;
+    background: #fff url(/theme/sitevi_git_desktop/img/bg-dotted.png)
+}
+
+.parent786543 .article-title .inside,
+.content508607 .article-title .inside {
+    max-width: 1400px;
+    margin: 0 auto
+}
+
+.parent786543 .site-banner,
+.content508607 .site-banner {
+    z-index: 1;
+    background-color: white
+}
+
 .parent786543 .is-stuck.site-banner,
 .content508607 .is-stuck.site-banner {
     border-bottom: 0 none
@@ -7441,6 +7465,17 @@ a .exhibitor-categories__img img:hover {
     -webkit-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     -o-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+
+.parent786543 .quicklinks-navigation .ql-list .ql-item .ql-item-link.is-active,
+.content508607 .quicklinks-navigation .ql-list .ql-item .ql-item-link.is-active {
+    background-color: #e3763a
+}
+
+.parent786543 .quicklinks-navigation .ql-list .ql-item .ql-item-link.is-active::after,
+.content508607 .quicklinks-navigation .ql-list .ql-item .ql-item-link.is-active::after {
+    height: 5px;
+    opacity: 1
 }
 
 .parent786543 .quicklinks-navigation .ql-list .ql-item .ql-item-link:hover,
