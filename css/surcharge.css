@@ -8203,6 +8203,14 @@ a .exhibitor-categories__img img:hover {
     margin-right: 20px
 }
 
+.cl-content .cl-item .cl-item-illust {
+    width: 100%
+}
+
+.cl-content .cl-item .cl-item-content {
+    padding: 0
+}
+
 .cl-content .cl-item .cl-item-social [class^=social] {
     margin-right: 5px
 }
