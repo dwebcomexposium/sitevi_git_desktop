@@ -7592,7 +7592,8 @@ a .exhibitor-categories__img img:hover {
 
 .parent786543 .list-articles .slider-content .slider-item .la-item-img,
 .content508607 .list-articles .slider-content .slider-item .la-item-img {
-    padding: 2.5rem
+    padding: 3.1rem;
+    width: 140px
 }
 
 .parent786543 .list-articles .slider-content .slider-item .la-item-content,
@@ -7607,7 +7608,26 @@ a .exhibitor-categories__img img:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 58rem
+    max-width: 58rem;
+    overflow: visible;
+    position: relative
+}
+
+.parent786543 .list-articles .slider-content .slider-item .la-item-content::after,
+.content508607 .list-articles .slider-content .slider-item .la-item-content::after {
+    width: 200px;
+    border-radius: 300px;
+    height: 200px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: -202px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    border: 1px solid #dbdbdb;
+    z-index: 0
 }
 
 .parent786543 .list-articles .slider-content .slider-item .la-item-content .la-item-btn,
@@ -7644,14 +7664,14 @@ a .exhibitor-categories__img img:hover {
 .parent786543 .list-articles .slider-content .slider-item .la-item-content .la-item-title,
 .content508607 .list-articles .slider-content .slider-item .la-item-content .la-item-title {
     font-size: 2.4rem;
-    color: white;
-    font-family: "ITC Avant Garde Gothic W01", sans-serif;
-    font-weight: normal;
-    text-transform: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
     position: relative;
     margin-top: 1.5rem;
     font-size: 1.4rem;
-    opacity: 0.5;
+    opacity: 1;
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
@@ -8123,7 +8143,8 @@ a .exhibitor-categories__img img:hover {
 }
 
 .devenir-exposant {
-    background: #fff url(/theme/sitevi_git_desktop/img/bg-dotted.png)
+    background: #fff url(/theme/sitevi_git_desktop/img/bg-dotted.png);
+    margin-bottom: 45px
 }
 
 .devenir-exposant.sawIt .block-wrap .img {
@@ -8182,16 +8203,16 @@ a .exhibitor-categories__img img:hover {
 }
 
 .cl-content .cl-item {
-    -ms-flex-preferred-size: 48%;
-    flex-basis: 48%;
-    max-width: 48%;
-    min-width: 48%;
-    margin-right: 2%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin-right: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     border: 0 none;
-    margin-bottom: 50px
+    margin-bottom: 40px
 }
 
 .cl-content .cl-item .cl-item-illust {
