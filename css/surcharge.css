@@ -7569,7 +7569,18 @@ a .exhibitor-categories__img img:hover {
 
 .parent786543 .list-articles .main-title-with-link,
 .content508607 .list-articles .main-title-with-link {
-    display: none
+    display: block
+}
+
+.parent786543 .list-articles .main-title-with-link>.main-title,
+.content508607 .list-articles .main-title-with-link>.main-title {
+    float: none;
+    text-align: center;
+    font-size: 38px;
+    color: #000;
+    font-family: raleway, sans-serif;
+    font-weight: 300;
+    text-transform: none
 }
 
 .parent786543 .list-articles .slider-content .slider-item,
