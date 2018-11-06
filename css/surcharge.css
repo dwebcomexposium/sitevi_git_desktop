@@ -7578,7 +7578,7 @@ a .exhibitor-categories__img img:hover {
     text-align: center;
     font-size: 38px;
     color: #000;
-    font-family: raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
     text-transform: none
 }
@@ -7869,6 +7869,10 @@ a .exhibitor-categories__img img:hover {
 .chiffres-cle .chiffres-cle-numbers li .text {
     line-height: 22px;
     display: block
+}
+
+html[lang="en"] .chiffres-cle.chiffres-innovation .chiffres-cle-numbers li {
+    max-width: 395px
 }
 
 .block-wrap {
