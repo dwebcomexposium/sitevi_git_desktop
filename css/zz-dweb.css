@@ -159,3 +159,7 @@ position:absolute;
    background: #9ec543;
    border-color: #f36f23;
 }
+
+.article-content figure {
+    border: 0px solid #e3e9ea;
+}
