@@ -30,7 +30,6 @@ if((window.location.href.indexOf("Italiano") > -1) && !fouettele) {
        $('.ls-lang-fr > a').attr("href", "/")
        fouettele = true;
 }
-});
 var fouettelle = false;
 if((window.location.href.indexOf("Italiano") > -1) && !fouettele) {
        $('div.lang-switcher.js-lang-switcher > button:first-child').html('ALL');
