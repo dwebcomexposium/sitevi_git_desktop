@@ -31,7 +31,7 @@ if((window.location.href.indexOf("Italiano") > -1) && !fouettele) {
        fouettele = true;
 }
 var fouettelle = false;
-if((window.location.href.indexOf("Italiano") > -1) && !fouettele) {
+if((window.location.href.indexOf("Allemand") > -1) && !fouettelle) {
        $('div.lang-switcher.js-lang-switcher > button:first-child').html('ALL');
        $('li.ls-lang-item.ls-lang-fr.is-active').removeClass('is-active');
        $('li.ls-lang-dwebbbb').addClass('is-active');
