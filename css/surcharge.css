@@ -2623,14 +2623,15 @@ a:hover {
 
 .article-content .lien2 {
     color: #8fbe24;
-    margin-left: 10px;
+    margin-left: 0;
 }
 
 .article-content .lien2:before {
     content: url(/theme/sitevi_git_desktop/img/icons/icon-download.svg);
-    display: block;
+    display: inline-block;
     width: 12px;
-    float: left;
+    margin-right: 10px;
+    float: none;
 }
 
 .article-content blockquote {
@@ -7869,9 +7870,9 @@ a .exhibitor-categories__img img:hover {
 
 .chiffres-cle.chiffres-innovation .chiffres-cle-numbers li {
     text-align: left;
-    -webkit-box-flex: initial;
-    -ms-flex: initial;
-    flex: initial;
+    -webkit-box-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
     max-width: 330px;
 }
 
