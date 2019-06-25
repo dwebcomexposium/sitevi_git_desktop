@@ -166,3 +166,9 @@ position:absolute;
 .parent240692 #zone1 {display:none;}
 
 .mn-menu-item-175754>.mn-link{color:#000}
+
+/*Catalogue - Mise en avant*/
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title {
+    font-size: 1.8rem;
+    color: #8FBE24;
+}
