@@ -169,6 +169,5 @@ position:absolute;
 
 /*Catalogue - Mise en avant*/
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title {
-    font-size: 1.8rem;
-    color: #8FBE24;
+    color: #8FBE24  !important;
 }
