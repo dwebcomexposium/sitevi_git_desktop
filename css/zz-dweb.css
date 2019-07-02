@@ -172,3 +172,10 @@ position:absolute;
 .catalogue .mod-catal .catal-ex-item.is-premium .catal-ex-item-title {
     color: #8FBE24  !important;
 }
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
+    color: #f36f23;
+}
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
+    color: #f36f23;
+}
