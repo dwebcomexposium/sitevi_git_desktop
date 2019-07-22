@@ -275,6 +275,7 @@ a:hover {
 
 .content206559 .global-wrapper,
 .content216440 .global-wrapper,
+.content745134 .global-wrapper,
 .content216632 .global-wrapper {
     overflow: hidden;
 }
@@ -840,6 +841,7 @@ a:hover {
     .contacts-list .inside .content206559 h1:before,
     .contacts-list .inside .content216440 h1:before,
     .contacts-list .inside .content216632 h1:before,
+	.contacts-list .inside .content745134 h1:before,
     .content206559 .block-title:before,
     .content206559 .contacts-list .inside h1:before,
     .content206559 .partner-list .inside h1:before,
@@ -1158,6 +1160,7 @@ a:hover {
     .content206559 .page-header .inside,
     .content216440 .page-header .inside,
     .content216632 .page-header .inside,
+    .content745134 .page-header .inside,
     .front .page-header .inside {
         min-height: 235px;
         padding-top: 30px;
@@ -1190,6 +1193,7 @@ a:hover {
 .content206559 .page-header .event-baseline,
 .content216440 .page-header .event-baseline,
 .content216632 .page-header .event-baseline,
+.content745134 .page-header .event-baseline,
 .front .page-header .event-baseline {
     line-height: 1.25em;
 }
@@ -1255,6 +1259,7 @@ a:hover {
 .content206559 .page-header .event-date,
 .content216440 .page-header .event-date,
 .content216632 .page-header .event-date,
+.content745134 .page-header .event-date,
 .front .page-header .event-date {
     font-size: 16px;
     font-size: 1.6rem;
@@ -1264,6 +1269,7 @@ a:hover {
     .content206559 .page-header .event-date,
     .content216440 .page-header .event-date,
     .content216632 .page-header .event-date,
+    .content745134 .page-header .event-date,
     .front .page-header .event-date {
         margin-top: 11px;
         font-size: 36px;
@@ -2789,7 +2795,8 @@ a:hover {
     }
 }
 
-.content206559 .article-title {
+.content206559 .article-title,
+.content745134 .article-title{
     margin-top: 500px !important;
 }
 
@@ -2942,6 +2949,7 @@ a:hover {
 }
 
 .content206559 .la-item,
+.content745134 .la-item,
 .content216440 .la-item,
 .content216632 .la-item {
     overflow: hidden;
@@ -3033,13 +3041,8 @@ a:hover {
 
 .content206559 .la-item-content,
 .content216440 .la-item-content,
-.content216632 .la-item-content {
-    padding: 15px 0 0;
-}
-
-.content206559 .la-item-content,
-.content216440 .la-item-content,
 .content216632 .la-item-content,
+.content745134 .la-item-content,
 .gla-item-content {
     position: relative;
     left: 0;
@@ -3053,6 +3056,7 @@ a:hover {
     text-align: left;
     color: #000;
     background: #fff;
+    padding: 15px 0 0;
 }
 
 .gla-item-content {
@@ -3109,6 +3113,7 @@ a:hover {
 }
 
 .content206559 .la-item-title a,
+.content745134 .la-item-title a,
 .content216440 .la-item-title a,
 .content216632 .la-item-title a {
     position: relative;
@@ -3147,6 +3152,7 @@ a:hover {
 }
 
 .content206559 .la-item-desc,
+.content745134 .la-item-desc,
 .content216440 .la-item-desc,
 .content216632 .la-item-desc {
     margin-top: 5px;
@@ -3901,6 +3907,7 @@ body.catalogue {
 }
 
 .content206559 .edito,
+.content745134 .edito,
 .content216440 .edito,
 .content216632 .edito {
     width: 100%;
@@ -3909,6 +3916,7 @@ body.catalogue {
 
 @media (min-width: 750px) {
     .content206559 .edito,
+	.content745134 .edito,
     .content216440 .edito,
     .content216632 .edito {
         width: 50%;
@@ -3925,6 +3933,7 @@ body.catalogue {
 }
 
 .content206559 .edito,
+.content745134 .edito,
 .content216440 .edito,
 .content216632 .edito {
     margin: 0 !important;
@@ -3932,6 +3941,7 @@ body.catalogue {
 
 @media (min-width: 750px) {
     .content206559 .edito,
+    .content745134 .edito,
     .content216440 .edito,
     .content216632 .edito {
         margin: inherit !important;
@@ -3989,6 +3999,7 @@ body.catalogue {
     .content175755 #zone2 .edito:before,
     .content184011 #zone2 .edito:before,
     .content206559 #zone2 .edito:before,
+    .content745134 #zone2 .edito:before,
     .content216440 #zone2 .edito:before,
     .content216632 #zone2 .edito:before,
     .front #zone2 .edito:before {
@@ -8369,3 +8380,5 @@ html[lang="en"] .chiffres-cle.chiffres-innovation .chiffres-cle-numbers li {
 .article-content ul li.focus1:before {
     display: none;
 }
+
+
