@@ -180,3 +180,8 @@ position:absolute;
     color: #f36f23;
 }
 .partner .pl-item-illust{width:auto;}
+
+ins#revive-0-0 {
+    display: inline-block;
+    margin: 30px;
+}
