@@ -170,7 +170,7 @@ position:absolute;
 /*Catalogue - Mise en avant*/
 
 .catalogue .mod-catal .catal-ex-item.is-premium .catal-ex-item-title {
-    color: #8FBE24  !important;
+    color: #F36F23  !important;
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
@@ -185,5 +185,9 @@ ins#revive-0-0 {
     display: inline-block;
     margin: 30px;
 }
+/*Catalogue new */
 .catalogue #zone2 {
     width: 100%;}
+
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {
+    background: #F37021 !important;}
