@@ -191,3 +191,8 @@ ins#revive-0-0 {
 
 #catalog-v2 .CatalogCard-title.CatalogCard-title--premium {
     background: #F37021 !important;}
+
+/*cacher pagination New catalogue 2021*/
+#catalog-v2 .CatalogResults {
+    display: none;
+}
