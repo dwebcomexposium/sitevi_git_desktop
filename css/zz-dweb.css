@@ -196,3 +196,20 @@ ins#revive-0-0 {
 #catalog-v2 .CatalogResults {
     display: none;
 }
+
+a.externe.lien3 {
+    background-image: linear-gradient(to bottom,#E3763A 50%,#99BC44 50%);
+    background-size: 100% 200%;
+    padding: 2rem 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+a.externe.lien3:hover {
+    background-position: 0 100%;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
