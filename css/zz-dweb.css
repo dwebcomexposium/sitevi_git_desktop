@@ -214,3 +214,24 @@ a.externe.lien3:hover {
     -ms-transform: none;
     transform: none;
 }
+
+
+.contact .cl-item-illust img {
+    margin: -41px;
+}
+
+.contact .cl-item-web span.label {
+    display: none;
+}
+
+.contact .cl-item-web a {
+    background-color: #8fbe24;
+    text-decoration: none;
+    color: white;
+    padding: 21px;
+    font-weight: bold;
+}
+.contact .cl-item-web a:hover {
+    background-color: #f36f23;
+}
+
