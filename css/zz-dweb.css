@@ -238,3 +238,6 @@ a.externe.lien3:hover {
 .linkid175900 .btn-primary {
     background-color: #f36f23;
 }
+p.at-publication {
+    display: none;
+}
