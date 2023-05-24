@@ -791,7 +791,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 .news { padding: 96px 0 70px; }
 .news .inside { max-width: 83.33%; margin: 0 auto; }
 .news .main-title-with-link { display:flex; align-items:flex-end; border: none; margin-bottom: 29px;  }
-.news .main-title { font-family: 'Gotham Rounded'; font-weight: 700; font-size: 27px; color: #751B42; padding: 0;  }
+.news .main-title, .news .block-title { font-family: 'Gotham Rounded'; font-weight: 700; font-size: 27px; color: #751B42; padding: 0;  }
 .news .link-view-all { margin: 0 20px 7px auto; }
 
 .news .grid-la-list { margin: 0 -15px -15px; }
