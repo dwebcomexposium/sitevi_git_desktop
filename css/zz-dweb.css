@@ -59,113 +59,9 @@
     height: 84px;
     background: url(/theme/sitevi_git_desktop/img/_tmp/Tiphaine-Bisson.jpg) 50% no-repeat;
 }
-#zone1 > div.block.block-page.newsletter-form.is-open > div > div.box-dark > div > div.nf-result > div > button {
-    margin-left: 37%;
-    margin-top: 7%;
-    color: #fff;
-    background: #8fbe24;
-    border-color: #8fbe24;
-}
-#zone1 > div.block.block-page.newsletter-form.is-open > div > div.box-dark > div > div.nf-result > div > i {
-    margin-left: 40%;
-}
-#zone1 > div.block.block-page.newsletter-form.is-open > div > div.box-dark > div > div.nf-result > div > p:nth-child(3) {
-   margin-left: 5%;
-   white-space: nowrap;
-}
-#zone2 > div.block.block-page.edito.lp-concept-1.animated > div > p:nth-child(7) > a {
-  font-weight: bold;
-  color: #2087c9;
-}
-.content240791 h3 {
-    margin-top: 30px;
-    letter-spacing: 3px;
-    font-family: ITC Avant Garde Gothic W01,sans-serif;
-    font-size: 15px;
-    font-size: 1.5rem;
-    padding: 16px 20px;
-    font-weight: 200;
-    color: #fff;
-    background: #f36f23;
-    line-height: 1.5;
-    text-transform: uppercase;
-}
-.node288494 div.block-custom.pastille, .node304754 div.block-custom.pastille, .node305059 div.block-custom.pastille, .node252064 div.block-custom.pastille {
-    position: fixed;
-    top: 60px;
-    left: -30px;
-    right: 111px;
-}
-/* Suppression ligne pointillées sur la pub */
-.catalogue .pagination:before {
-    background: none;
-}
-
-/* Bouton rubrique Evenement */
-
-#zone4 .linkid254406 .txt-btn {
-   font-size: 20px;
-   color: orange;
-}
-
-.style4, .lien4 {
-   font-size: 20px;
-   color: orange;
-}
-
-/** #cxpmClientAccountWidget {
-   position: absolute;
-   margin-left: 65%;
-   margin-top: 1em;
-} **/
-
-#cxpmClientAccountWidget {
-    font-weight: 100;
-    height: 70px;
-    font-family: Raleway,sans-serif;
-    line-height: 70px;
-    font-size: 1.2rem;
-    border-right: 1px solid #dbd9d7;
-margin-left: 73%;
-position:absolute;
-}
-#cxpmClientAccountWidget .widget-text span a {
-    font-size: 1.2rem !important;
-}
-#cxpmClientAccountWidget .widget-my-selection, #cxpmClientAccountWidget .widget-notifications {
-    padding-top: 8px;
-}
-#cxpmClientAccountWidget .widget-my-selection i, #cxpmClientAccountWidget .widget-notifications i {
-    font-size: 18px !important;
-}
 
 
 
-.nf-form-input {
-   width: 100%;
-   float: none;
-}
-
-.nf-main-content {
-   background: #f36f23;
-}
-
-.nf-form-submit [class^="btn"] {
-   background: #8fbe24;
-   border-color: #f36f23;
-}
-
-.nf-form-submit [class^="btn"]:hover {
-   background: #9ec543;
-   border-color: #f36f23;
-}
-
-.article-content figure {
-    border: 0px solid #e3e9ea;
-}
-.parent240692 #zone1 {display:none;}
-
-.mn-menu-item-175754>.mn-link{color:#000}
 
 /*Catalogue - Mise en avant*/
 
@@ -197,50 +93,8 @@ ins#revive-0-0 {
     display: none;
 }
 
-a.externe.lien3 {
-    background-image: linear-gradient(to bottom,#E3763A 50%,#99BC44 50%);
-    background-size: 100% 200%;
-    padding: 2rem 3rem;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.6rem;
-    font-weight: 700;
-    display: inline-block;
-}
 
-a.externe.lien3:hover {
-    background-position: 0 100%;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-}
-
-
-.contact .cl-item-illust img {
-    margin: -41px;
-}
-
-.contact .cl-item-web span.label {
-    display: none;
-}
-
-.contact .cl-item-web a {
-    background-color: #8fbe24;
-    text-decoration: none;
-    color: white;
-    padding: 21px;
-    font-weight: bold;
-}
-.contact .cl-item-web a:hover {
-    background-color: #f36f23;
-}
-
-.linkid175900 .btn-primary {
-    background-color: #f36f23;
-}
 p.at-publication {
     display: none;
 }
-.mn-menu-item-175911 .mn-link-text{
-    display: none;
-}
+
