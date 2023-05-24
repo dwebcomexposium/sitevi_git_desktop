@@ -448,7 +448,11 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	Body Bg
 \* ------------------------------------------------------------ */
 
-.body-bg { display: block; margin: 0; position: absolute; top: 0; left: 0; width: 100%; height: calc(var(--hero-height) + var(--header-height) + 18px); pointer-events: none; overflow: hidden; }
+.body-bg { display: block; margin: 0; position: absolute; top: 0; left: 0; width: 100%; pointer-events: none; overflow: hidden; }
+
+.front .body-bg { height: calc(452px + 225px + 18px); }
+
+
 .body-bg > img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 12s 0.3s; }
 
 .is-load .body-bg > img { transform: scale(1.1); }
@@ -458,7 +462,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	
 	.article .body-bg,
 	.article_list .body-bg,
-	.lp-exposant .body-bg { height: var(--header-height); }
+	.lp-exposant .body-bg { height: 225px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -480,8 +484,8 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	--color-txt-hover: #fff;
 	--left-border-width:5px;
 	transition: background-position 0.3s, color 0.3s;
-	background-image: linear-gradient( to right, var(--color-hover) 50%, var(--color-base) 50%)!important; background-size: 200% 100%!important; background-position: calc(100% + var(--left-border-width)) 50%!important; background-repeat: no-repeat; color: var(--color-txt)!important; text-decoration: none; display:inline-flex; align-items:center; font-size: 16px; font-family: 'Gotham Rounded'; font-weight: 700;  line-height: 1.1; 
-	  padding: 16px 28px; box-shadow: inset 0px 0px 0px 1px var(--border-color); border:none; background-color: transparent; 
+	background-image: linear-gradient( to right, #751B42 50%, #952456 50%)!important; background-size: 200% 100%!important; background-position: calc(100% + 5px) 50%!important; background-repeat: no-repeat; color: #fff!important; text-decoration: none; display:inline-flex; align-items:center; font-size: 16px; font-family: 'Gotham Rounded'; font-weight: 700;  line-height: 1.1; 
+	  padding: 16px 28px; box-shadow: inset 0px 0px 0px 1px transparent; border:none; background-color: transparent; 
 }
 
 .btn-alt svg { margin-right: 23px; margin-left: 10px; }
@@ -493,7 +497,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 .partner .main-title-with-link .link-view-all:hover,
 .btn-primary:hover,
 .btn-alt:hover,
-.list-articles .link-read-more:hover { background-position: 0 50%!important; color: var(--color-txt-hover)!important; background-color: transparent; }
+.list-articles .link-read-more:hover { background-position: 0 50%!important; color: #fff!important; background-color: transparent; }
 
 .btn-alt--big {
 	--left-border-width:11px;
@@ -555,13 +559,13 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	padding: 10px 28px;
 }
 
-.lien4:after { content:'';  width: 34px; height: 34px; background-color: var(--color-hover); border-radius: 50%; margin-left: 17px; background-image: url(images/ico-downlodw.svg); background-size: 15px 18px; background-position: center; background-repeat: no-repeat; margin-right: -7px; }
+.lien4:after { content:'';  width: 34px; height: 34px; background-color: #952456; border-radius: 50%; margin-left: 17px; background-image: url(images/ico-downlodw.svg); background-size: 15px 18px; background-position: center; background-repeat: no-repeat; margin-right: -7px; }
 
 /* ------------------------------------------------------------ *\
 	Global Wrapper
 \* ------------------------------------------------------------ */
 
-.global-wrapper { padding-top: var(--header-height); overflow: hidden; }
+.global-wrapper { padding-top: 225px; overflow: hidden; }
 
 /* ------------------------------------------------------------ *\
 	List Widgets
@@ -788,7 +792,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 @media(min-width: 1024px){
 	.news .grid-la-list .gla-item:hover {}
 	.news .grid-la-list .gla-item:hover a > img { transform: scale(1.1); }
-	.news .grid-la-list .gla-item:hover .gla-btn-read-more { background-position: 0 50%!important; color: var(--color-txt-hover)!important; background-color: transparent; }
+	.news .grid-la-list .gla-item:hover .gla-btn-read-more { background-position: 0 50%!important; color: #fff!important; background-color: transparent; }
 }
 
 @media(max-width: 1440px){
@@ -1443,8 +1447,8 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 .cl-content {
 	--grid-y: 62px;
 	--grid-x: 30px;
- display:flex; flex-wrap: wrap; margin: calc(var(--grid-y) * -1) calc(var(--grid-x) * -1) 0; }
-.cl-content .cl-item { width: calc(50% - 15px); display:flex; align-items:center; padding: var(--grid-y) var(--grid-x) 0; border: none; margin: 0; }
+ display:flex; flex-wrap: wrap; margin: calc(62px * -1) calc(30px * -1) 0; }
+.cl-content .cl-item { width: calc(50% - 15px); display:flex; align-items:center; padding: 62px 30px 0; border: none; margin: 0; }
 .cl-content .cl-item-photo { width: 30%; background-color: #ebebeb; padding: 0; min-height: 100px; width: 135px; border-right: 12px solid #ACB698; }
 .cl-content .cl-item-photo img { min-height: 150px; object-fit: cover; }
 
@@ -1515,7 +1519,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 @media(min-width: 1024px){
 	.article_list .list-articles .grid-la-list .gla-item:hover {}
 	.article_list .list-articles .grid-la-list .gla-item:hover a > img { transform: scale(1.1); }
-	.article_list .list-articles .grid-la-list .gla-item:hover .gla-btn-read-more { background-position: 0 50%!important; color: var(--color-txt-hover)!important; background-color: transparent; }
+	.article_list .list-articles .grid-la-list .gla-item:hover .gla-btn-read-more { background-position: 0 50%!important; color: #fff!important; background-color: transparent; }
 }
 
 @media(max-width: 1200px){
@@ -1670,9 +1674,9 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 .slider-figure p { font-size: 26.2px; font-family: 'Gotham Rounded'; margin-top: 0; padding-left: 10px; }
 
 .figures .slider__slides { --offset-bottom: -23px; padding-bottom: 0;  }
-.figures .slider__slides:after { content: ''; position: absolute; bottom: var(--offset-bottom); left: 73px; transform: translate(-50%,50%); width: 4px; height: 4px; background-color: #B48607;  }
+.figures .slider__slides:after { content: ''; position: absolute; bottom: -23px; left: 73px; transform: translate(-50%,50%); width: 4px; height: 4px; background-color: #B48607;  }
 
-.figures .slick-arrow { position: absolute; top: auto; bottom: var(--offset-bottom); z-index: 2; transform: translate(-50%,50%); width: auto; height: auto; }
+.figures .slick-arrow { position: absolute; top: auto; bottom: -23px; z-index: 2; transform: translate(-50%,50%); width: auto; height: auto; }
 .figures .slick-arrow:before { display: none;  }
 .figures .slick-arrow:after { content: url(images/ico-arrow.svg); display: block;  }
 
