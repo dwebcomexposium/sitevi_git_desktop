@@ -448,7 +448,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	Body Bg
 \* ------------------------------------------------------------ */
 
-.body-bg { display: block; margin: 0; position: absolute; top: 0; left: 0; width: 100%; pointer-events: none; overflow: hidden; }
+.body-bg { display: block; margin: 0; position: absolute; top: 0; left: 0; width: 100%; pointer-events: none; overflow: hidden; /*height: calc(452px + 271px + 18px); */}
 
 .front .body-bg { height: calc(452px + 225px + 18px); }
 
@@ -462,7 +462,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	
 	.article .body-bg,
 	.article_list .body-bg,
-	.lp-exposant .body-bg { height: 225px; }
+	.lp-exposant .body-bg { height: 200px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -471,6 +471,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 
 .lien1,
 .lien2,
+.lien3,
 .lien4,
 .gla-btn-read-more,
 .partner .main-title-with-link .link-view-all,
@@ -491,6 +492,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 .btn-alt svg { margin-right: 23px; margin-left: 10px; }
 
 .lien1:hover,
+.lien3:hover,
 .lien2:hover,
 .lien4:hover,
 .gla-btn-read-more:hover,
@@ -515,6 +517,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 @media (max-width: 1200px) {
 	.lien1,
 	.lien2,
+	.lien3,
 	.gla-btn-read-more,
 	.partner .main-title-with-link .link-view-all,
 	.btn-primary,
@@ -529,6 +532,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 @media (max-width: 767px) {
 	.lien1,
 	.lien2,
+	.lien3,
 	.gla-btn-read-more,
 	.partner .main-title-with-link .link-view-all,
 	.btn-primary,
@@ -565,7 +569,20 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	Global Wrapper
 \* ------------------------------------------------------------ */
 
-.global-wrapper { padding-top: 225px; overflow: hidden; }
+.global-wrapper { padding-top: 271px; overflow: hidden; }
+.front .global-wrapper { padding-top: 225px;  }
+
+
+@media (max-width: 1023px) {
+	.global-wrapper { padding-top: 200px; }
+}
+
+@media (max-width: 767px) {
+	.global-wrapper { padding-top: 234px; }
+}
+
+
+
 
 /* ------------------------------------------------------------ *\
 	List Widgets
@@ -1773,5 +1790,7 @@ input[type="checkbox"], input[type="radio"] { margin-right: 10px; }
 }
 
 
+/*div*/
+.site-footer .footer, .social-sharing, .article-navigation  { display: none; }
+#cxpmClientAccountWidget .widget-text span a:hover, #cxpm-connect-sso-dropdown .widget-text span a:hover, header.site-banner .h-tag { color: #fff; }
 
-.site-footer .footer  { display: none; }
