@@ -5,7 +5,8 @@ vendor/mustache.js/jquery.mustache.js
 vendor/masonry/dist/masonry.pkgd.min.js
 vendor/imagesloaded/imagesloaded.pkgd.min.js
 modules/*
-surcharge.js
+slick.min.js
 zz-dwebv2.js
 zz-dweb-nsletter.js
 unflux.js
+scripts-sitevi.js
