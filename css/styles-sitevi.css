@@ -501,9 +501,17 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 .btn-alt:hover,
 .list-articles .link-read-more:hover { background-position: 0 50%!important; color: #fff!important; background-color: transparent; }
 
+
+
+
+
+
+
+
 .btn-alt--big {
 	--left-border-width:11px;
 	padding: 36px 30px; font-size: 17px; text-transform: uppercase; letter-spacing: 0.05em;
+	background-position: calc(100% + 11px) 50%!important;
 }
 
 @media (max-width: 1500px) {
@@ -551,6 +559,18 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	--color-base: transparent;
 	--color-txt: #fff;
 	--color-txt-hover: #952456;
+	
+	transition: background-position 0.3s, color 0.3s;
+	background-image: linear-gradient( to right, #fff 50%, transparent 50%)!important; background-size: 200% 100%!important; background-position: calc(100% + 5px) 50%!important; background-repeat: no-repeat; color: #fff!important; text-decoration: none; display:inline-flex; align-items:center; font-size: 16px; font-family: 'Gotham Rounded'; font-weight: 700;  line-height: 1.1; 
+	  padding: 16px 28px; box-shadow: inset 0px 0px 0px 1px #fff; border:none; background-color: transparent; 
+}
+
+
+.lien2:hover,
+.gla-btn-read-more:hover,
+.btn-alt--white:hover,
+.list-articles .link-read-more:hover { background-position: 0 50%!important; color: #952456!important; background-color: transparent; }
+
 }
 
 
@@ -809,7 +829,7 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 @media (min-width: 1024px) {
 	.news .grid-la-list .gla-item:hover {}
 	.news .grid-la-list .gla-item:hover a > img { transform: scale(1.1); }
-	.news .grid-la-list .gla-item:hover .gla-btn-read-more { background-position: 0 50%!important; color: #fff!important; background-color: transparent; }
+	.news .grid-la-list .gla-item:hover .gla-btn-read-more { background-position: 0 50%!important; color: #952456!important; background-color: transparent; }
 }
 
 @media (max-width: 1440px) {
