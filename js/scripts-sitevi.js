@@ -11,22 +11,22 @@ $('.js-body-bg').clone().prependTo( ".global-wrapper" );
 $('.btn-bottom-wrapper').clone().prependTo( ".site-footer" );
 
 function updateVariables() {
-	heroHeight = $hero.outerHeight();
+    heroHeight = $hero.outerHeight();
     root.style.setProperty('--hero-height', heroHeight + "px");
 }
 
 $('.main-navigation .mn-item-lvl-1 > a').on('click', (e) => {
-	e.preventDefault();
-	let $this = $(e.currentTarget);
+    e.preventDefault();
+    let $this = $(e.currentTarget);
 
-	$this.siblings('.mn-menu-submenu').slideToggle().parent().toggleClass('is-menu-expanded').siblings().removeClass('is-menu-expanded').find('.mn-menu-submenu').slideUp();
+    $this.siblings('.mn-menu-submenu').slideToggle().parent().toggleClass('is-menu-expanded').siblings().removeClass('is-menu-expanded').find('.mn-menu-submenu').slideUp();
 })
 
 $('.article  .article-title img').removeClass("at-illust").wrap( "<div class='main-animation at-illust'></div>" );
 
 $('.nav-trigger-wrapper').on('click', (e) => {
-	e.preventDefault();
-	$body.toggleClass('is-mobile-menu-open')
+    e.preventDefault();
+    $body.toggleClass('is-mobile-menu-open')
 })
 
 $('.js-play').on('click', (e) =>  {
@@ -44,10 +44,10 @@ $('.js-scroll-top').on('click', (e) =>  {
 });
 
 $(window).on('load', () => {
-	const element = $('.news .grid-la-list');
-	const mediaQuery = window.matchMedia('(max-width: 767px)');
+    const element = $('.news .grid-la-list');
+    const mediaQuery = window.matchMedia('(max-width: 767px)');
 
-	const handleSwitchSlick = ((e) => {
+    const handleSwitchSlick = ((e) => {
        if (e.matches) {
         element.slick({
            slidesToShow: 1,
@@ -145,11 +145,16 @@ $('.js-video-block').each((index, section) => {
     })
 })
 
+$('.mn-item-lvl-1:not(.mn-item-has-submenu) .mn-link').on('click', (e) => {
+    let $this = $(e.currentTarget);
+    window.location = $this.attr('href');
+})
+
 updateVariables();
 $window.on('load', () =>{
     $body.addClass('is-load');
 }).on('load resize', () =>{
-	updateVariables();
+    updateVariables();
 }).on('load scroll', () =>{
     scrollTop = $window.scrollTop()
     $body.toggleClass('has-scroll', scrollTop > 50)
