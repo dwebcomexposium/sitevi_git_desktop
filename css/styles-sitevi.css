@@ -1807,8 +1807,8 @@ input[type="checkbox"], input[type="radio"] { margin-right: 10px; }
 	Video Block
 \* ------------------------------------------------------------ */
 
-.video-block { width: 45rem; display: inline-block; position: relative; color: #fff; float: left; }
-.video-block video { width: 100%; height: auto; }
+.video-block { width: 45rem; display: inline-block; position: relative; color: #fff; float: left; overflow: hidden;}
+.video-block video { width: 100%; height: auto;  scale: 1.1}
 .video-block .video__btn { position: absolute; bottom: 4.6rem; right: 5.1rem; border: 0.1rem solid #fff; font-size: 0; width: 5.3rem; height: 5.3rem; border-radius: 50%; }
 .video-block .video__btn svg { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); transition: opacity 0.3s; }
 .video-block .video__btn svg:nth-child(1) { opacity: 0; }
