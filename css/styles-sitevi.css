@@ -460,12 +460,15 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 
 .is-load .body-bg > img { transform: scale(1.1); }
 
+
+body.catalogue .body-bg { height: 271px; }
+
 @media (max-width: 1023px) {
 	.body-bg { /*height: 578px;*/ object-fit: cover; }
 	
 	.article .body-bg,
 	.article_list .body-bg,
-	.lp-exposant .body-bg { height: 200px; }
+	.lp-exposant .body-bg, body.catalogue .body-bg { height: 200px; }
 }
 
 /* ------------------------------------------------------------ *\
