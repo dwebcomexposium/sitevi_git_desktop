@@ -468,7 +468,7 @@ body.catalogue .body-bg { height: 271px; }
 	
 	.article .body-bg,
 	.article_list .body-bg,
-	.lp-exposant .body-bg, body.catalogue .body-bg { height: 200px; }
+	.lp-exposant .body-bg, body.catalogue .body-bg { height: 234px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -1332,12 +1332,17 @@ input[type="checkbox"], input[type="radio"] { margin-right: 10px; }
 
 @media (max-width: 1023px) {
 	.article, .article_list, .page-rubric { --header-height: 200px; }
+	.front .body-bg { height: 660px; }
+	.body-bg { height: 234px; }
+
+	
 }
 
 @media (max-width: 767px) {
 	.article,    .article_list, .page-rubric { --header-height: 234px; }
 	.article h2, .article_list h2, .page-rubric h2 { font-size: 27px; }
 	.article h3, .article_list h3, .page-rubric h3 { font-size: 22px; }
+	.front .body-bg { height: 560px; }
 }
 
 /* ------------------------------------------------------------ *\
