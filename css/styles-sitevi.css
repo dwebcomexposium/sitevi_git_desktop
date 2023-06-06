@@ -623,11 +623,11 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 @media (min-width: 1023px) {
 	.has-scroll .list-widgets,
 	.article .list-widgets,
-	.article_list .list-widgets { background-color: #f9f4f6; color: #952456; }
+	.article_list .list-widgets, body:not(.front) .list-widgets { background-color: #f9f4f6; color: #952456; }
 
 	.has-scroll .list-widgets li + li:before,
 	.article_list .list-widgets li + li:before,
-	.article .list-widgets li + li:before { background-color: #952456; }
+	.article .list-widgets li + li:before, 	body:not(.front) .list-widgets li + li:before  { background-color: #952456; }
 
 	.list-widgets li a:hover svg { transform: scale(1.2); }
 }
