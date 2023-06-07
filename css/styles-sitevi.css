@@ -1415,13 +1415,13 @@ body:not(.front) img { max-width: 100%; }
 .article-content { clear: both; padding: 58px calc(16.66% + 5px); line-height: 1.64; }
 .article-content h2 { text-transform: uppercase; color: #751B42; border: none; clear: both; }
 .article-content h2:not(:last-child) { margin-bottom: 1.1em; }
-.article-content figure { padding: 0; border: none; max-width: 333px; margin-top: 0.2em; text-align: right; }
+.article-content figure { padding: 0; border: none; max-width: inherit; margin-top: 0.2em; text-align: right; }
 .article-content figure small {  font-size: 11px; line-height: 1.18; font-weight: 400; display: block; padding: 14px 0 0; opacity: 0.5; }
-.article-content figure img { width: 100%; } 
+.article-content figure img {/* width: 100%;*/ } 
 /*.article-content figure strong { display: none; } */
 .article-content figure.fr { margin-left: 1.6em; float: right; } 
 .article-content figure.fl { margin-right: 1.6em; float: left; } 
-.article-content figure.center { max-width: 586px; text-align: center;  }
+.article-content figure.center { /*max-width: 850px;*/ text-align: center;  }
 
 .article-content p { line-height: inherit; }
 
@@ -1969,3 +1969,9 @@ body.partner .pl-item-read-more { margin-top: 20px; }
 body.partner .block-page.partner-list { margin-top: 50px; }
 body.partner .pl-item-illust { border-radius: 10px; margin-right: 40px; border: 1px solid #dddddd; padding: 20px; }
 body.partner .site-banner .intro p { margin-bottom: 20px; }
+
+/*Landing*/
+
+.cachenav header .list-widgets, .cachenav header .socials, .cachenav header .link, .cachenav header .h-tag, .cachenav header nav, .cachenav header.site-banner #cxpmClientAccountWidget, .cachenav header.site-banner .lang-switcher, .cachenav header.site-banner .global-search-form, .cachenav header .btn-alt--big  { display: none!important; }
+
+.cachenav .logo { margin: 0 auto !important; }
