@@ -64,7 +64,7 @@ $(window).on('load', () => {
  handleSwitchSlick(mediaQuery);
 });
 
-let $animatedSections = $('.hero .inside h1, .hero .inside p, .intro .inside h2, .intro .widget-image, .secteurs, .news .main-title, .news .main-title-with-link > a, .news .cxp-pagination, .block-add, .wish h2, .temoins, .partner, .animation .main-title-with-link, .animation .intro, .animation .la-slider, .userAccount-newsletter, .block-socs, .article-title .at-content, .article-intro, .article-content > *, .article_list .main-title-with-link, .article_list .intro, .article_list .list-articles .la-item, .article_list .gla-item, .article_list .pagination, .btn-bottom-wrapper')
+let $animatedSections = $('.hero .inside h1, .hero .inside p, .intro .inside h2, .secteurs, .news .main-title, .news .main-title-with-link > a, .news .cxp-pagination, .block-add, .wish h2, .temoins, .partner, .animation .main-title-with-link, .animation .intro, .animation .la-slider, .userAccount-newsletter, .block-socs, .article-title .at-content, .article-intro, .article-content > *, .article_list .main-title-with-link, .article_list .intro, .article_list .list-articles .la-item, .article_list .gla-item, .article_list .pagination, .btn-bottom-wrapper')
 
 $animatedSections.addClass('animate-fade-up')
 $('.btn-bottom-wrapper').removeClass('animate-fade-up');
