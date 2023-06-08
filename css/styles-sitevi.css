@@ -1971,3 +1971,7 @@ body.partner .pl-item-illust { border-radius: 10px; margin-right: 40px; border: 
 body.partner .site-banner .intro p { margin-bottom: 20px; }
 
 
+/*Landing*/
+
+.cachenav header .list-widgets, .cachenav header .socials, .cachenav header .link, .cachenav header .h-tag, .cachenav header nav, .cachenav header.site-banner #cxpmClientAccountWidget, .cachenav header.site-banner .lang-switcher, .cachenav header.site-banner .global-search-form, .cachenav header .btn-alt--big  { display: none!important; }
+.cachenav .logo { margin: 0 auto !important; }
