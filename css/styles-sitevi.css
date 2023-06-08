@@ -68,7 +68,16 @@ header.site-banner .h-tag { order:1; margin-left: 3.3%; }
 header.site-banner .socials { order:2; margin-left: 18px; }
 header.site-banner .link { order:3; }
 
-header.site-banner #cxpmClientAccountWidget { position: static!important; order:4; margin-left: auto; }
+/*header.site-banner .link.space { position: static!important; order: 6;
+}*/
+
+header.site-banner .space { position: static!important; order:4; margin-left: auto; }
+header.site-banner #cxpmClientAccountWidget { position: relative!important; order:4; margin-left: 20px; padding-left: 20px;	}
+
+header.site-banner #cxpmClientAccountWidget:before { content: ''; top: 50%; left: 0; height: 17px; width: 1px; background-color: #fff; opacity: 0.5; position: absolute; top: 50%; transform: translateY(-50%); }
+
+
+/*header.site-banner #cxpmClientAccountWidget { position: static!important; order:4; margin-left: auto; }*/
 
 header.site-banner .global-search-form { position: relative; order:5; padding-left: 22px; margin-left: 14px; right: auto; bottom: auto; }
 header.site-banner .global-search-form:before { content: ''; top: 50%; left: 0; height: 17px; width: 1px; background-color: #fff; opacity: 0.5; position: absolute; top: 50%; transform: translateY(-50%); }
@@ -168,7 +177,15 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	header.site-banner .global-search-form { order: 2; margin: 10px 0 20.2px; padding: 0; width: 100%; }
 	header.site-banner .global-search-form:before { display: none;  }
 	
-	header.site-banner #cxpmClientAccountWidget { order: 3; margin: 0 auto 0 21px; }
+	/*header.site-banner #cxpmClientAccountWidget { order: 3; margin: 0 auto 0 21px; }*/
+	
+	header.site-banner .space { margin: 0 auto 0 12px; 	}
+	header.site-banner .widget-my-selection { margin-left: 0; 	}
+	header.site-banner .lang-switcher:before { display: none; }	
+	header.site-banner .widget-my-selection:before { display: none; 	}
+	header.site-banner #cxpmClientAccountWidget:before { display: none; }
+
+
 	header.site-banner .lang-switcher { order: 4; margin: 0 21px 0 auto; }
 	header.site-banner .inside > hr { order: 5; width: 100%; opacity: 0.2; margin: 22px 0 19px; }
 	header.site-banner .socials { order: 6; margin-left: 38px;  }
@@ -279,8 +296,8 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	Link
 \* ------------------------------------------------------------ */
 
-.link { font-size: 11.8px; color: #fff; text-decoration: none; }
-.link:hover { color: #fff; text-decoration: underline; }
+.link, .space { font-size: 11.8px; color: #fff; text-decoration: none; }
+.link:hover, .space:hover { color: #fff; text-decoration: underline; }
 
 /* ------------------------------------------------------------ *\
 	Lang Switcher
