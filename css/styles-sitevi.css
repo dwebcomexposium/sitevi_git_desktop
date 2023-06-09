@@ -72,7 +72,7 @@ header.site-banner .link { order:3; }
 }*/
 
 header.site-banner .space { position: static!important; order:4; margin-left: auto; }
-header.site-banner #cxpmClientAccountWidget { position: relative!important; order:4; margin-left: 20px; padding-left: 20px;	}
+header.site-banner #cxpmClientAccountWidget { position: relative!important; order:4; margin-left: 20px; padding-left: 20px;	line-height: 1; overflow: visible; }
 
 header.site-banner #cxpmClientAccountWidget:before { content: ''; top: 50%; left: 0; height: 17px; width: 1px; background-color: #fff; opacity: 0.5; position: absolute; top: 50%; transform: translateY(-50%); }
 
@@ -108,7 +108,8 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	header.site-banner #cxpmClientAccountWidget,
 	header.site-banner .status,
 	header.site-banner .lang-switcher,
-	header.site-banner hr {
+	header.site-banner hr,
+	header.site-banner .space {
 		transition: all 0.3s;
 		max-height: 100px;
 		overflow: hidden;
@@ -121,7 +122,8 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 	.has-scroll header.site-banner #cxpmClientAccountWidget,
 	.has-scroll header.site-banner .status,
 	.has-scroll header.site-banner .lang-switcher,
-	.has-scroll header.site-banner hr {
+	.has-scroll header.site-banner hr,
+	.has-scroll header.site-banner .space {
 		max-height: 0px;
 		height: 0;
 		padding: 0; 
