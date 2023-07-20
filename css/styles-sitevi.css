@@ -637,6 +637,16 @@ header.is-stuck.site-banner { background-color: transparent; padding: 20px 0; po
 .list-widgets li + li:before { content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 14px; height: 1px; background-color: #fff; opacity: 0.1; transition: background-color 0.3s; }
 .list-widgets li a { color: inherit; text-decoration: none; }
 .list-widgets li p { line-height: 1.21;  padding-top: 4px;}
+.list-widgets li:first-child { /*background: rgba(255, 255, 255, 0.26);*/ padding: 10px; border: 1px solid #fff; }
+.has-scroll header.site-banner .list-widgets li:first-child { border:  0; background-color: #932355; }
+.has-scroll header.site-banner .list-widgets li:first-child p { color: #ffffff; }
+.has-scroll header.site-banner .list-widgets li:first-child svg { color: #ffffff; }
+
+
+
+
+.list-widgets li + li:before { content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 14px; height: 1px; background-color: #fff; opacity: 0.1; transition: background-color 0.3s; }
+
 .list-widgets li a svg { transition: transform 0.3s; }
 
 
