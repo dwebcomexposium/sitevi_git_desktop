@@ -64,7 +64,7 @@ $(window).on('load', () => {
  handleSwitchSlick(mediaQuery);
 });
 
-let $animatedSections = $('.hero .inside h1, .hero .inside p, .intro .inside h2, .intro .widget-image, .secteurs, .news, .block-add, .wish, .temoins, .partner, .animation .main-title-with-link, .animation .intro, .animation .la-slider, .userAccount-newsletter, .block-socs, .article-title .at-content, .article-intro, .article-content h2, .article-content .cl-item, .article-content h3, .article-content h4, .article_list .main-title-with-link, .article_list .intro, .article_list .list-articles .la-item, .article_list .gla-item, .article_list .pagination, .btn-bottom-wrapper ')
+let $animatedSections = $('.hero .inside h1, .hero .inside p, .intro .inside h2, .intro .widget-image, .secteurs, .news, .block-add, .wish, .temoins, .partner, .animation .main-title-with-link, .animation .intro, .animation .la-slider, .userAccount-newsletter, .block-socs, .article-title .at-content, .article-intro, .article-content h2, .article-content .cl-item, .article_list .main-title-with-link, .article_list .intro, .article_list .list-articles .la-item, .article_list .gla-item, .article_list .pagination, .btn-bottom-wrapper ')
 
 $animatedSections.addClass('animate-fade-up')
 $('.btn-bottom-wrapper').removeClass('animate-fade-up')
