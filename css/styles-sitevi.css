@@ -1548,6 +1548,8 @@ body:not(.front) img { max-width: 100%; }
 	--grid-x: 30px;
  display:flex; flex-wrap: wrap; margin: calc(62px * -1) calc(30px * -1) 0; }
 .cl-content .cl-item { width: calc(50% - 15px); display:flex; align-items:flex-start; padding: 62px 30px 0; border: none; margin: 0; }
+.jury .cl-content .cl-item { width: 100%; }
+
 .cl-content .cl-item-photo { width: 30%; background-color: #ebebeb; padding: 0; min-height: 128px; width: 128px; border-right: 12px solid #ACB698; }
 .cl-content .cl-item-photo img { min-height: 128px; object-fit: cover; border-right: 12px solid #ACB698; }
 
