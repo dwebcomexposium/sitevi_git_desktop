@@ -1560,7 +1560,7 @@ body:not(.front) img { max-width: 100%; }
 .cl-content .cl-item-phone { font-size: 15px; font-weight: 700; color: #7A8C5D; margin-bottom: 0; }
 .cl-content .cl-item-social,
 .cl-content .cl-item-phone .label { display: none; }
-.cl-content .cl-item-address { font-size: 13px; }
+.cl-content .cl-item-address, .cl-content .cl-item-desc { font-size: 13px; }
 
 
 
