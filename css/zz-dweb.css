@@ -97,4 +97,6 @@ ins#revive-0-0 {
 p.at-publication {
     display: none;
 }
-
+.site-footer .inside:after {
+    content: url(images/Comexposium-axema.svg);
+}
