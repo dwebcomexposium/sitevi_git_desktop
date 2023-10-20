@@ -2018,4 +2018,5 @@ body.partner .site-banner .intro p { margin-bottom: 20px; }
 .cachenav .logo { margin: 0 auto !important; }
 
 .btn-bottom-wrapper { display: none!important; }
-a.space:hover, a.space:active, a.space:visited  { color: #fff!important;  }
+a.space:hover, a.space:active, a.space:visited, a.space:focus  { color: #ffffff!important;  }
+
