@@ -15,7 +15,7 @@ function updateVariables() {
     root.style.setProperty('--hero-height', heroHeight + "px");
 }
 
-$('.main-navigation .mn-item-lvl-1 > a').on('click', (e) => {
+$('.main-navigation .mn-item-lvl-1.mn-item-has-submenu > a').on('click', (e) => {
 	e.preventDefault();
 	let $this = $(e.currentTarget);
 
