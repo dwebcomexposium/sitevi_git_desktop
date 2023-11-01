@@ -99,4 +99,8 @@ p.at-publication {
 }
 .site-footer .inside:after {
     content: url(images/Comexposium-axema.svg);
+        padding: 10px 20px 40px 47px;
+    border-radius: 40px;
+    background: #ffffff;
 }
+
